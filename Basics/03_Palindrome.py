@@ -10,7 +10,8 @@ def palindrome(num):
     return result
 
 pal = palindrome(num)
-if(temp == pal):
-    print("Palindrome")
-else:
-    print("Not a Palindrome")
+print(pal==temp)
+# if(temp == pal):
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome")
